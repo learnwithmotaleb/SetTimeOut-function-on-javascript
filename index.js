@@ -1,4 +1,12 @@
 // callback function______
+const taskOne1 = () =>{
+    setTimeout(() => {
+        document.write("I am abdul Motaleb Munna");
+        document.write("<br/>");
+        document.write("<br/>");
+    }, 3300);
+}
+
 
 const taskOne = () =>{
     setTimeout(() => {
@@ -64,6 +72,7 @@ const taskEight = () =>{
 //         },4000);
 //     });
 // });
+taskOne1();
 taskOne();
 taskTwo();
 taskThree();
